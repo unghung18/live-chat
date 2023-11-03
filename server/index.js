@@ -29,7 +29,7 @@ server.listen(PORT, () => {
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://livechatz.netlify.app",
         methods: ["GET", "POST"]
     }
 })

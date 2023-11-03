@@ -3,7 +3,6 @@ const route = require('./routes');
 const cors = require('cors');
 const cookieParser = require('cookie-parser')
 const connectDb = require('./config/db');
-require('dotenv').config();
 
 const app = express();
 const http = require('http')
